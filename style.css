@@ -56,7 +56,67 @@ p {
     gap: 20px;
 }
 
+@media screen and (max-width: 2000px) {
+    h1 {
+        float: right;
+    }
+}
+
 @media screen and (max-width: 1000px) {
+    h1 {
+        font-size: 10vw;
+    }
+    p {
+        font-size: 5vw;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    h1 {
+        font-size: 10vw;
+    }
+    p {
+        font-size: 5vw;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    h1 {
+        font-size: 10vw;
+    }
+    p {
+        font-size: 5vw;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size: 10vw;
+    }
+    p {
+        font-size: 5vw;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    h1 {
+        font-size: 10vw;
+    }
+    p {
+        font-size: 5vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 10vw;
+    }
+    p {
+        font-size: 5vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
     .colums {
         width: 20vw;
         height: 15vh;
@@ -71,7 +131,6 @@ p {
         width: 33%;
     }
     table {
-        top: 30vh;
         width: 66%;
         height: 50%;
     }
