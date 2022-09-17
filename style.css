@@ -15,7 +15,8 @@ body {
     width: 100vw;
     font-family: 'Montserrat', sans-serif;
     height: 100vh;
-    background: linear-gradient(to right top, var(--blue), var(--dark-blue));
+    background: url(./img/Fuerteventura-1.jpg) center;
+    background-size: cover;
     overflow: hidden;
     overflow-x: hidden;
 }
