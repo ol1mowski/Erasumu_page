@@ -35,7 +35,7 @@ table {
 }
 
 tr {
-    margin-right: 2%;
+    margin-right: 20%;
 }
 
 p {
@@ -56,25 +56,22 @@ p {
 }
 
 @media screen and (max-width: 1000px) {
-    body {
-        background-repeat: no-repeat;
-        overflow: hidden;
-        overflow-x: hidden;
+    .colums {
+        width: 20vw;
+        height: 15vh;
     }
-}
-
-@media screen and (max-width: 768px) {
-    body {
-        background-repeat: no-repeat;
-        overflow: hidden;
-        overflow-x: hidden;
+    h1 {
+        font-size: 15vw;
     }
-}
-
-@media screen and (max-width: 320px) {
-    body {
-        background-repeat: no-repeat;
-        overflow: hidden;
-        overflow-x: hidden;
+    p {
+        font-size: 10vw;
+    }
+    tr {
+        width: 33%;
+    }
+    table {
+        top: 30vh;
+        width: 66%;
+        height: 50%;
     }
 }
