@@ -58,8 +58,7 @@ p {
 }
 
 .colums:hover {
-    width: 21vw;
-    height: 21vh;
+    animation: anime 0.7s;
 }
 
 @media screen and (max-width: 2000px) {
@@ -158,5 +157,11 @@ p {
     }
     .colums:hover {
         width: 21vw;
+    }
+}
+
+@keyframes anime {
+    from {
+        transform: translateY(-20%);
     }
 }
