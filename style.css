@@ -3,9 +3,21 @@
     --blue: #61DAF2;
     --dark-blue: #393AF5;
     --white: #fff;
+    --black: #000;
 }
 
-img {
+.icon {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 20;
+    top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture_icon{
     width: 20vw;
     height: 20vh;
     border-radius: 20px;
@@ -48,12 +60,14 @@ p {
     font-size: 2vw;
 }
 
+
 .colums {
     cursor: pointer;
-    color: var(--white);
+    color: var(--black);
     font-weight: bold;
     font-size: 24px;
     width: 20vw;
+    text-align: center;
     margin-right: 20px;
     border-radius: 20px;
     height: 20vh;
@@ -65,6 +79,9 @@ p {
 
 .colums:hover {
     animation: anime 0.7s;
+}
+
+.picture_icon:hover{
     opacity: 0.3;
 }
 
