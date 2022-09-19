@@ -5,6 +5,13 @@
     --white: #fff;
 }
 
+img {
+    width: 20vw;
+    height: 20vh;
+    border-radius: 20px;
+    opacity: 0.9;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -50,7 +57,6 @@ p {
     margin-right: 20px;
     border-radius: 20px;
     height: 20vh;
-    background-color: #000;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,6 +65,7 @@ p {
 
 .colums:hover {
     animation: anime 0.7s;
+    opacity: 0.3;
 }
 
 @media screen and (max-width: 2000px) {
@@ -86,6 +93,10 @@ p {
 }
 
 @media screen and (max-width: 800px) {
+    img {
+        width: 22vw;
+        height: 15vh;
+    }
     .colums {
         width: 22vw;
         height: 15vh;
@@ -99,6 +110,10 @@ p {
 }
 
 @media screen and (max-width: 700px) {
+    img {
+        width: 22vw;
+        height: 15vh;
+    }
     .colums {
         font-size: 15px;
         width: 22vw;
@@ -113,6 +128,10 @@ p {
 }
 
 @media screen and (max-width: 600px) {
+    img {
+        width: 22vw;
+        height: 15vh;
+    }
     .colums {
         font-size: 15px;
         width: 22vw;
@@ -133,6 +152,10 @@ p {
 }
 
 @media screen and (max-width: 500px) {
+    img {
+        width: 22vw;
+        height: 15vh;
+    }
     .colums {
         font-size: 15px;
         width: 22vw;
