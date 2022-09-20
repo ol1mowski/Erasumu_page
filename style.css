@@ -17,7 +17,7 @@
     align-items: center;
 }
 
-.picture_icon{
+.picture_icon {
     width: 20vw;
     height: 20vh;
     border-radius: 20px;
@@ -53,13 +53,25 @@ table {
     height: 66%;
 }
 
+.slider {
+    display: none;
+}
+
+.active {
+    opacity: 0.7;
+    width: 66%;
+    height: 66%;
+    position: absolute;
+    left: 15%;
+    background-color: var(--black);
+}
+
 p {
     font-weight: bold;
     color: #fff;
     text-align: center;
     font-size: 2vw;
 }
-
 
 .colums {
     cursor: pointer;
@@ -81,7 +93,7 @@ p {
     animation: anime 0.7s;
 }
 
-.picture_icon:hover{
+.picture_icon:hover {
     opacity: 0.3;
 }
 
@@ -110,6 +122,10 @@ p {
 }
 
 @media screen and (max-width: 800px) {
+    .active {
+        width: 80%;
+        height: 50%;
+    }
     img {
         width: 22vw;
         height: 15vh;
@@ -127,6 +143,10 @@ p {
 }
 
 @media screen and (max-width: 700px) {
+    .active {
+        width: 80%;
+        height: 50%;
+    }
     img {
         width: 22vw;
         height: 15vh;
@@ -142,9 +162,16 @@ p {
     p {
         font-size: 5vw;
     }
+    TABLE {
+        margin-left: 20px;
+    }
 }
 
 @media screen and (max-width: 600px) {
+    .active {
+        width: 80%;
+        height: 50%;
+    }
     img {
         width: 22vw;
         height: 15vh;
@@ -162,6 +189,7 @@ p {
     }
     table {
         display: flex;
+        margin-left: 20px;
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -169,6 +197,10 @@ p {
 }
 
 @media screen and (max-width: 500px) {
+    .active {
+        width: 80%;
+        height: 50%;
+    }
     img {
         width: 22vw;
         height: 15vh;
@@ -188,6 +220,7 @@ p {
         width: 33%;
     }
     table {
+        margin-left: 20px;
         display: flex;
         justify-content: center;
         align-items: center;
