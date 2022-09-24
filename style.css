@@ -53,6 +53,7 @@ table {
     height: 66%;
 }
 
+
 .slider {
     display: none;
 }
@@ -73,20 +74,31 @@ p {
     font-size: 2vw;
 }
 
+.container_cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 66vw;
+    height: 66vh;
+    margin: auto;
+}
+
 .colums {
     cursor: pointer;
     color: var(--black);
     font-weight: bold;
     font-size: 24px;
-    width: 20vw;
+    width: 50vw;
     text-align: center;
     margin-right: 20px;
     border-radius: 20px;
-    height: 20vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 40vh;
     transition: width, height 0.3s;
+}
+
+img {
+    width: 33vw;
+    height: 33vh;
 }
 
 .colums:hover {
@@ -113,6 +125,9 @@ p {
 }
 
 @media screen and (max-width: 900px) {
+    .container_cont {
+        flex-wrap: wrap;
+    }
     h1 {
         font-size: 10vw;
     }
@@ -122,6 +137,9 @@ p {
 }
 
 @media screen and (max-width: 800px) {
+    .container_cont {
+        flex-wrap: wrap;
+    }
     .active {
         width: 80%;
         height: 50%;
@@ -132,7 +150,7 @@ p {
     }
     .colums {
         width: 22vw;
-        height: 15vh;
+        height: 7vh;
     }
     h1 {
         font-size: 10vw;
@@ -143,18 +161,21 @@ p {
 }
 
 @media screen and (max-width: 700px) {
+    .container_cont {
+        flex-wrap: wrap;
+    }
     .active {
         width: 80%;
         height: 50%;
     }
     img {
-        width: 22vw;
-        height: 15vh;
+        width: 27vw;
+        height: 20vh;
     }
     .colums {
         font-size: 15px;
         width: 22vw;
-        height: 15vh;
+        height: 7vh;
     }
     h1 {
         font-size: 10vw;
@@ -168,18 +189,21 @@ p {
 }
 
 @media screen and (max-width: 600px) {
+    .container_cont {
+        flex-wrap: wrap;
+    }
     .active {
         width: 80%;
         height: 50%;
     }
     img {
-        width: 22vw;
-        height: 15vh;
+        width: 27vw;
+        height: 20vh;
     }
     .colums {
         font-size: 15px;
         width: 22vw;
-        height: 15vh;
+        height: 7vh;
     }
     h1 {
         font-size: 10vw;
@@ -197,18 +221,21 @@ p {
 }
 
 @media screen and (max-width: 500px) {
+    .container_cont {
+        flex-wrap: wrap;
+    }
     .active {
         width: 80%;
         height: 50%;
     }
     img {
-        width: 22vw;
-        height: 15vh;
+        width: 27vw;
+        height: 20vh;
     }
     .colums {
         font-size: 15px;
         width: 22vw;
-        height: 15vh;
+        height: 7vh;
     }
     h1 {
         font-size: 15vw;
