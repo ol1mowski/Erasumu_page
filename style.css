@@ -6,6 +6,14 @@
     --black: #000;
 }
 
+#czas {
+    color: #fff;
+    transform: translateX(1vw);
+    margin-top: inherit;
+    font-family: Helvetica, sans-serif;
+    font-size: 45px;
+    height: 45px;
+}
 
 main {
     display: flex;
