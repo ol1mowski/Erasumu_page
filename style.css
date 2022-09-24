@@ -183,9 +183,6 @@ img {
     p {
         font-size: 5vw;
     }
-    TABLE {
-        margin-left: 20px;
-    }
 }
 
 @media screen and (max-width: 600px) {
@@ -211,13 +208,6 @@ img {
     p {
         font-size: 5vw;
     }
-    table {
-        display: flex;
-        margin-left: 20px;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
 }
 
 @media screen and (max-width: 500px) {
@@ -241,19 +231,7 @@ img {
         font-size: 15vw;
     }
     p {
-        font-size: 10vw;
-    }
-    tr {
-        width: 33%;
-    }
-    table {
-        margin-left: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        width: 66%;
-        height: 50%;
+        font-size: 30px;
     }
     .colums:hover {
         width: 21vw;
